@@ -1,0 +1,5 @@
+LIBRARY dart_ffi_template
+EXPORTS
+    http_get
+    http_serve
+    native_free
