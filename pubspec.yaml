@@ -28,6 +28,8 @@ ffigen:
   name: "dart_ffi_template"
   description: "bindings"
   output: "lib/bindings.dart"
+  preamble: |
+    // ignore_for_file: type=lint, unused_element, unused_field
 
   llvm-path:
     - C:\ProgramFiles\Library\clangllvm
